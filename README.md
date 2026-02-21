@@ -115,3 +115,12 @@ All activity is written to **`trading_bot.log`** in the project root. Each entry
 - Stop-Limit orders map to Binance's `STOP` order type with `stopPrice` and `price` fields.
 - TP/SL orders use `TAKE_PROFIT_MARKET` and `STOP_MARKET` types for guaranteed fills.
 - Testnet enforces a minimum notional of ~$100 -- use quantity >= 0.002 for BTCUSDT.
+
+---
+
+## Author
+
+**Rishabh**
+* [GitHub Profile](https://github.com/rixabhh)
+* [LinkedIn](https://www.linkedin.com/in/rishabbh/)
+
