@@ -1,0 +1,30 @@
+2026-02-21 16:48:22 | INFO     | trading_bot | Order validated  →  {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.002, 'price': None, 'stop_price': None}
+2026-02-21 16:48:22 | INFO     | trading_bot | Initializing Binance Futures Testnet client …
+2026-02-21 16:48:23 | INFO     | trading_bot | Client ready  →  https://testnet.binancefuture.com
+2026-02-21 16:48:23 | INFO     | trading_bot | Placing MARKET order  →  {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.002}
+2026-02-21 16:48:23 | INFO     | trading_bot | MARKET order response  →  {
+  "orderId": 12439197274,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "***MASKED***",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.002",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1771672702831
+}

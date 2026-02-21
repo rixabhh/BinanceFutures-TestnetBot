@@ -1,0 +1,30 @@
+2026-02-21 16:48:50 | INFO     | trading_bot | Order validated  →  {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': 0.002, 'price': 50000.0, 'stop_price': None}
+2026-02-21 16:48:50 | INFO     | trading_bot | Initializing Binance Futures Testnet client …
+2026-02-21 16:48:51 | INFO     | trading_bot | Client ready  →  https://testnet.binancefuture.com
+2026-02-21 16:48:51 | INFO     | trading_bot | Placing LIMIT order  →  {"symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "timeInForce": "GTC", "quantity": 0.002, "price": 50000.0}
+2026-02-21 16:48:51 | INFO     | trading_bot | LIMIT order response  →  {
+  "orderId": 12439204328,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "***MASKED***",
+  "price": "50000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.002",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1771672731203
+}

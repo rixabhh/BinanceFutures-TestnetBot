@@ -1,0 +1,30 @@
+2026-02-21 16:56:37 | INFO     | trading_bot | Order validated  ->  {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.002, 'price': None, 'stop_price': None, 'take_profit': 70000.0, 'stop_loss': 55000.0}
+2026-02-21 16:56:37 | INFO     | trading_bot | Initializing Binance Futures Testnet client ...
+2026-02-21 16:56:37 | INFO     | trading_bot | Client ready  ->  https://testnet.binancefuture.com
+2026-02-21 16:56:37 | INFO     | trading_bot | Placing MARKET order  ->  {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.002}
+2026-02-21 16:56:38 | INFO     | trading_bot | MARKET order response  ->  {
+  "orderId": 12439336153,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "type": "MARKET",
+  "side": "BUY",
+  "origQty": "0.002"
+}
+2026-02-21 16:56:38 | INFO     | trading_bot | Placing TAKE-PROFIT  ->  {"symbol": "BTCUSDT", "side": "SELL", "type": "TAKE_PROFIT_MARKET", "quantity": 0.002, "stopPrice": 70000.0}
+2026-02-21 16:56:38 | INFO     | trading_bot | TAKE-PROFIT response  ->  {
+  "orderId": 12439336261,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "type": "TAKE_PROFIT_MARKET",
+  "side": "SELL",
+  "stopPrice": "70000.00"
+}
+2026-02-21 16:56:38 | INFO     | trading_bot | Placing STOP-LOSS  ->  {"symbol": "BTCUSDT", "side": "SELL", "type": "STOP_MARKET", "quantity": 0.002, "stopPrice": 55000.0}
+2026-02-21 16:56:39 | INFO     | trading_bot | STOP-LOSS response  ->  {
+  "orderId": 12439336358,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "type": "STOP_MARKET",
+  "side": "SELL",
+  "stopPrice": "55000.00"
+}

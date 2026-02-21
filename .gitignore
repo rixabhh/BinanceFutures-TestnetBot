@@ -1,0 +1,26 @@
+# Environment & secrets
+.env
+API Key.txt
+
+# Internal docs
+PRD.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Runtime logs (evidence logs are allowed)
+trading_bot.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+.venv/
